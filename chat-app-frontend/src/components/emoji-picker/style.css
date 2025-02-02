@@ -1,0 +1,50 @@
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: flex-end;
+}
+
+.input-area {
+  position: relative;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+.emoji-picker {
+  position: absolute;
+  bottom: 60px;
+  right: 10px;
+  z-index: 10;
+}
+
+.input-controls {
+  display: flex;
+  align-items: center;
+}
+
+.emoji-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  margin-right: 8px;
+}
+
+.message-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  outline: none;
+}
+
+.send-button {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin-left: 8px;
+  border-radius: 20px;
+  cursor: pointer;
+}
